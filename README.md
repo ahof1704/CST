@@ -47,8 +47,8 @@ If the `cst.yml` file does not successfully recreate the environment for you, yo
 
 1. Create and activate an anaconda environment with Python version 3.8:
 ```
-conda create -n neural_ide python=3.8
-conda activate neural_ide
+conda create -n cst python=3.8
+conda activate cst
 ```
 
 2. Install Pytorch: `conda install pytorch==1.12.0 torchvision==0.13.0 cudatoolkit=11.3 -c pytorch`
