@@ -21,7 +21,7 @@ conda activate cst
 ```
 
 
-If you use NIDE or any part of it in your own work, please cite [Fonseca et al]([https://arxiv.org/abs/2206.14282](https://arxiv.org/abs/2301.13338)):
+If you use CST or any part of it in your own work, please cite [Fonseca et al]([https://arxiv.org/abs/2206.14282](https://arxiv.org/abs/2301.13338)):
 ```
 @article{fonseca2023continuous,
   title={Continuous Spatiotemporal Transformers},
@@ -39,7 +39,7 @@ The toy data has been obtained by solving analytical IDEs in 2D and 4Ds. The ker
 The scripts for the toy data generation can be found [here](resources/NIDE_method_github.png).
 
 # Tutorial
-For an example on how to use CST to model dynamics, consult this [notebook](main-toyData.ipynb) in which NIDE is used to model the toy dataset described above.
+For an example on how to use CST to model dynamics, consult this [notebook](main-toyData.ipynb) in which CST is used to model the toy dataset described above.
 
 
 # Manual Environment Creation
