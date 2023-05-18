@@ -12,7 +12,7 @@ git clone https://github.com/ahof1704/CST.git
 ```
 
 
-Create an Anaconda environment from the `environment.yml` file using:
+Create an Anaconda environment from the `cst.yml` file using:
 
 ```
 conda env create --file cst.yml
