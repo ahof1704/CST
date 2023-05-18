@@ -1,7 +1,8 @@
 # Continuous Spatiotemporal Transformers
 
 Pytorch implementation of the Continuous Spatiotemporal Transformers (CST)
-![CST Workflow](resources/CST_method_github.png)
+
+<img src="resources/CST_method_github.png" width=50% height=50%>
 
 
 # Quickstart
