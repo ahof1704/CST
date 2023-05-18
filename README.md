@@ -1,32 +1,32 @@
-# Neural IDE
+# Continuous Spatiotemporal Transformers
 
-Pytorch implementation of the Neural Integro-Differential Equations (NIDE)
-![NIDE Workflow](resources/NIDE_method_github.png)
+Pytorch implementation of the Continuous Spatiotemporal Transformers (CST)
+![CST Workflow](resources/CST_method_github.png)
 
 
 # Quickstart
 Clone this repository locally:
 
 ```
-git clone https://github.com/emazap7/Neural_IDE.git
+git clone https://github.com/ahof1704/CST.git
 ```
 
 
 Create an Anaconda environment from the `environment.yml` file using:
 
 ```
-conda env create --file environment.yml
-conda activate neural_ide
+conda env create --file cst.yml
+conda activate cst
 ```
 
 
-If you use NIDE or any part of it in your own work, please cite [Zappala et al](https://arxiv.org/abs/2206.14282):
+If you use NIDE or any part of it in your own work, please cite [Fonseca et al]([https://arxiv.org/abs/2206.14282](https://arxiv.org/abs/2301.13338)):
 ```
-@article{zappala2022neural,
-  title={Neural integro-differential equations},
-  author={Zappala, Emanuele and Fonseca, Antonio Henrique de Oliveira and Moberly, Andrew Henry and Higley, Michael James and Abdallah, Chadi and Cardin, Jessica and van Dijk, David},
-  journal={arXiv preprint arXiv:2206.14282},
-  year={2022}
+@article{fonseca2023continuous,
+  title={Continuous Spatiotemporal Transformers},
+  author={Fonseca, Antonio H de O and Zappala, Emanuele and Caro, Josue Ortega and van Dijk, David},
+  journal={arXiv preprint arXiv:2301.13338},
+  year={2023}
 }
 ```
 
@@ -38,11 +38,11 @@ The toy data has been obtained by solving analytical IDEs in 2D and 4Ds. The ker
 The scripts for the toy data generation can be found [here](resources/NIDE_method_github.png).
 
 # Tutorial
-For an example on how to use NIDE to model dynamics, consult this [notebook](nide_spirals_example.ipynb) in which NIDE is used to model the toy dataset described above.
+For an example on how to use CST to model dynamics, consult this [notebook](main-toyData.ipynb) in which NIDE is used to model the toy dataset described above.
 
 
 # Manual Environment Creation
-If the `environment.yml` file does not successfully recreate the environment for you, you can follow the below steps to install the major packages needed for this project:
+If the `cst.yml` file does not successfully recreate the environment for you, you can follow the below steps to install the major packages needed for this project:
 
 1. Create and activate an anaconda environment with Python version 3.8:
 ```
